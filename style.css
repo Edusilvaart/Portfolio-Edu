@@ -1048,19 +1048,17 @@ footer a i {
     }
 
     .info-about1 {
-        left: 32%;
-        top: 134%;
+        display: none;
     }
 
     .info-about2 {
-        left: 30%;
-        top: 150%;
+        display: none;
     }
 
     .info-about3 {
-        left: 60%;
-        top: 144%;
+       display: none;
     }
+
 
     .img-about span {
         font-size: 1rem;
@@ -1164,19 +1162,17 @@ footer a i {
     }
 
     .info-about1 {
-        left: 18%;
-        top: 155%;
+        display: none;
     }
 
     .info-about2 {
-        left: 28.5%;
-        top: 177%;
+        display: none;
     }
 
     .info-about3 {
-        left: 67%;
-        top: 160%;
+       display: none;
     }
+
 
     .img-about span {
         font-size: 1rem;
@@ -1203,112 +1199,147 @@ footer a i {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        width: 150%;
+        width: 160%;
         margin-top: 3%;
         margin-bottom: 3%;
+        margin: 3% auto;
     }
 
-}
-
-@media (max-width: 440px) and (min-width: 416px) {
     .info-about1 {
-        left: 18%;
-        top: 150%;
+        display: none;
     }
 
     .info-about2 {
-        left: 28.5%;
-        top: 170%;
+        display: none;
     }
 
     .info-about3 {
-        left: 67%;
-        top: 160%;
+       display: none;
     }
 
-    .home-img img {
-        width: 100%;
-        top: -12%;
+    .img-about {
+        display: flex;
+        justify-content: center;
     }
 
-    
-
-}
-
-@media (max-width: 400px) and (min-width: 370px) {
-    .info-about1 {
-        left: 18%;
-        top: 165%;
+    .img-about img {
+        width: 190px;
+        top: -3rem;
+        position: absolute;
     }
 
-    .info-about2 {
-        left: 24%;
-        top: 185%;
-    }
-
-    .info-about3 {
-        left: 67%;
-        top: 170%;
+    header{
+        margin: 0 auto;
+        margin-left: -15%;
     }
 
     .liquid-shape {
         position: absolute;
         width: 90%;
-        margin-top: 47rem;
+        margin-top: 45rem;
+        margin-bottom: 15rem;
         height: 90%;
-        max-width: 550px;
+        max-width: 300px;
         text-align: center;
         z-index: -1;
         top: 1%;
-        left: 2.5%;
+        left: 20%;
+    }
+
+    .img-box img {
+        width: 50%;
+        max-width: 250px;
+        margin-top: -4rem;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .main-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .navlist{
+        margin-left: 12%;
+    }
+
+    .port-content h3{
+        font-size: 1.2rem;
+    }
+
+    .port-content p{
+        font-size: 1rem;
+    }
+
+    .port-content a i{
+        font-size: 1rem;
+    }
+
+    header .logo i{
+        font-size: 2rem;
     }
 
 }
 
-@media (max-width: 380px) and (min-width: 360px) {
-    .info-about1 {
-        left: 18%;
-        top: 210%;
+@media (max-width: 320px) {
+
+    .home-content {
+        max-width: 500px;
     }
 
-    .info-about2 {
-        left: 24%;
-        top: 240%;
+    .home-content h1 {
+        font-size: 1rem;
+        font-weight: 700;
     }
 
-    .info-about3 {
-        left: 67%;
-        top: 220%;
+    .home-content h3 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .home-content p {
+        font-size: .9rem;
+        width: 300px;
+    }
+
+    header .logo{
+        font-size: 1.8rem;
     }
 
     .liquid-shape {
         position: absolute;
-        width: 100%;
-        margin-top: 49rem;
-        height: 100%;
-        max-width: 550px;
+        width: 80%;
+        margin-top: 44rem;
+        margin-bottom: 15rem;
+        height: 90%;
+        max-width: 300px;
         text-align: center;
         z-index: -1;
         top: 1%;
-        left: 2.5%;
-    }
-}
-
-@media (max-width: 360px) and (min-width: 320px) {
-
-    .info-about1 {
-        left: 18%;
-        top: 196%;
+        left: 14%;
     }
 
-    .info-about2 {
-        left: 20%;
-        top: 220%;
+    .img-box img {
+        width: 50%;
+        max-width: 250px;
+        margin-top: -4rem;
+        height: auto;
+        border-radius: 50%;
     }
 
-    .info-about3 {
-        left: 67%;
-        top: 200%;
+    .main-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-text h2{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .main-text{
+        text-align: center;
+        font-size: 1.5rem;
     }
 
 }
