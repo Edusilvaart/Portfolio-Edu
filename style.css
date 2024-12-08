@@ -1056,7 +1056,7 @@ footer a i {
     }
 
     .info-about3 {
-       display: none;
+        display: none;
     }
 
 
@@ -1108,8 +1108,9 @@ footer a i {
         left: 2.5%;
     }
 
-    .home-img .liquid-shape{
+    .home-img .liquid-shape {
         left: 15.5%;
+        margin-bottom: 2%;
     }
 
     .home {
@@ -1174,7 +1175,7 @@ footer a i {
     }
 
     .info-about3 {
-       display: none;
+        display: none;
     }
 
 
@@ -1218,7 +1219,7 @@ footer a i {
     }
 
     .info-about3 {
-       display: none;
+        display: none;
     }
 
     .img-about {
@@ -1232,7 +1233,7 @@ footer a i {
         position: absolute;
     }
 
-    header{
+    header {
         margin: 0 auto;
         margin-left: -15%;
     }
@@ -1258,28 +1259,28 @@ footer a i {
         border-radius: 50%;
     }
 
-    .main-text{
+    .main-text {
         text-align: center;
         margin: 0 auto;
     }
 
-    .navlist{
+    .navlist {
         margin-left: 12%;
     }
 
-    .port-content h3{
+    .port-content h3 {
         font-size: 1.2rem;
     }
 
-    .port-content p{
+    .port-content p {
         font-size: 1rem;
     }
 
-    .port-content a i{
+    .port-content a i {
         font-size: 1rem;
     }
 
-    header .logo i{
+    header .logo i {
         font-size: 2rem;
     }
 
@@ -1306,7 +1307,7 @@ footer a i {
         width: 300px;
     }
 
-    header .logo{
+    header .logo {
         font-size: 1.8rem;
     }
 
@@ -1323,7 +1324,7 @@ footer a i {
         left: 14%;
     }
 
-    .home-img .liquid-shape{
+    .home-img .liquid-shape {
         left: 10.5%;
     }
 
@@ -1335,17 +1336,17 @@ footer a i {
         border-radius: 50%;
     }
 
-    .main-text{
+    .main-text {
         text-align: center;
         margin: 0 auto;
     }
 
-    .main-text h2{
+    .main-text h2 {
         text-align: center;
         font-size: 1.8rem;
     }
 
-    .main-text{
+    .main-text {
         text-align: center;
         font-size: 1.5rem;
     }
