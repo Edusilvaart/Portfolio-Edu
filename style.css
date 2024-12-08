@@ -1108,6 +1108,10 @@ footer a i {
         left: 2.5%;
     }
 
+    .home-img .liquid-shape{
+        left: 15.5%;
+    }
+
     .home {
         grid-template-columns: 1fr;
     }
@@ -1281,7 +1285,7 @@ footer a i {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
 
     .home-content {
         max-width: 500px;
@@ -1317,6 +1321,10 @@ footer a i {
         z-index: -1;
         top: 1%;
         left: 14%;
+    }
+
+    .home-img .liquid-shape{
+        left: 10.5%;
     }
 
     .img-box img {
